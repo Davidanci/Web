@@ -1,0 +1,28 @@
+table {
+    color: white;
+}
+table td {
+     font-size: 25px;
+}
+.infor{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    
+}
+.infor td{
+   padding: 20px; 
+}
+.row {
+    margin-right: 0px;
+    padding-top: 0px !important;
+}
+.wa:hover .i {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.wa {overflow:hidden;}
+
+.we:hover .e {-webkit-transform:scale(0.9);transform:scale(0.9);}
+.we {overflow:hidden;}
+
+.todop a:link {text-decoration:none;color: black;}
+.todop a {color:black;padding: 0;margin: 0;}
+.todop a:hover {color: black;}

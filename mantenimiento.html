@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Mi Cocina</title>
+		<link rel="shortcut icon" type="image/png" href="images/ficon.png"/>
+		<meta charset="utf-8">
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!----webfonts--->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic|Roboto+Slab:400,100,700' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header" id="move-top">
+						<div class="container">
+						<div class="logo">
+							<a href="index.php"><img src="images/micocinaa.png" width="120px" height="100px" title="Mi Cocina" style="margin-bottom:10px;"/></a>
+						</div> 
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="index.php">Inicio </a></li>
+								<li><a href="recetas.php">Recetas</a></li>
+								<li><a href="micocina.php">Mi cocina</a></li>
+								<li><a href="/blog">Blog</a></li>
+								<li><a href="contacto.php">Contacto</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<!----- contact-info ----->
+						<div class="contact-info">
+							<p>Empieza a disfrutar de tu tiempo en la cocina</p>
+							<div class="contact-info-grids">
+								<div class="contact-info-left">
+									<a class="chat" href="#">Iniciar sesion</a>
+								</div>
+								<div class="contact-info-right contact-info-left">
+									<a class="chat" href="#">Registrarse</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<!----- contact-info ----->
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			 <div style="text-align: center;padding: 4em 0 4em 0;background-color: aliceblue;">
+			 <h2 style="font-size: 58px">¡U<span style="color:#ffe13e; ">P</span>S!</h2>
+			 <img src="images/mante.png" alt="" width="30%">
+			 <h3>Estamos trabajando en esta página web.</h3>
+			 <h4>Quédate cerca... El lanzamiento será muy pronto.</h4>
+				
+			 </div>
+	
+			<!----- footer ----->
+            <footer class="text-center">
+                <div class="footer-above">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col col-md-4">
+                                <div class="footer-left">
+                                <h3>Navigación</h3>
+                                <ul class="footer-nav">
+                                <li><a href="index.php">Inicio </a></li>
+                                <li><a href="recetas.php">Recetas</a></li>
+                                <li><a href="micocina.php">Mi cocina</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                                </ul>
+                                <a class="to-top" href="#move-top">▲</a>
+                            </div>
+                            <div class="clearfix"> </div>
+                            </div>
+                              <div class="footer-col col-md-4">
+                               <!-- <h3>Recetas</h3> -->
+                               <img src="images/dinahosting.jpg" alt="" >
+                                <img src="images/puntcat.png" alt="" width="150px">
+                               <!-- <p>Consiga llevar una vida saludable gracias a nuestras consejos y recetas. Aprenda a cocinar los mejores platos en tu cocina gracias a nuestra comunidad.</p> -->
+                            </div>
+                            <div class="footer-col col-md-4">
+                               <h3>Mi Cocina</h3> 
+                               <p style="font-style: italic; text-align: center;">"La excelencia está en la diversidad y el modo de progresar es conocer y comparar las diversidades de productos, culturas y técnicas"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-below">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                               <a href="#"><img src="images/medio.png" title="Mi Cocina" class="footerimg"/></a>
+                            <p>©Copyright 2018, Design by David & Alessandro</p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Llicència de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+			<!----- footer ----->
+			<!---smoth-scrlling---->
+							<script type="text/javascript">
+									$(document).ready(function(){
+									$('a[href^="#"]').on('click',function (e) {
+									    e.preventDefault();
+									    var target = this.hash,
+									    $target = $(target);
+									    $('html, body').stop().animate({
+									        'scrollTop': $target.offset().top
+									    }, 1000, 'swing', function () {
+									        window.location.hash = target;
+									    });
+									});
+								});
+							</script>
+					<!---//smoth-scrlling---->
+	</body>
+</html>
+
